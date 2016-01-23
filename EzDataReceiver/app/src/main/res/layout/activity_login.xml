@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Sign in to EZCenter"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Username"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/etUsername"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Login"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvRegisterLink"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="Register Here"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+</LinearLayout>
